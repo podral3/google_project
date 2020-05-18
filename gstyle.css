@@ -1,0 +1,40 @@
+header{
+  
+  text-align: right;
+}
+.text{
+  color: black;
+  font-family: arial, sans-serif;
+}
+#log {
+  background-color: #4285f4;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 5%;
+}
+.center{
+  display: flex;
+  margin: auto;
+  }
+input{
+  margin: auto;
+  padding: 10px 120px 10px 120px;
+  position: relative;
+  
+}
+#dimg{
+  margin-bottom: 30px;
+  margin-top: 60px;
+  
+}
+.btn2{
+  padding: 10px 24px;
+  border-radius: 10%;
+}
+.xd{
+  align-content: center;
+}
+
+
+
+  
