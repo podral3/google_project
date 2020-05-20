@@ -20,6 +20,10 @@ header{
  text-align: center;
  
 }
+#main{
+margin-bottom: 100px;
+}
+
 .buttons{
  padding:10px 45px;
   margin-top: 10px;
@@ -27,21 +31,7 @@ header{
   background-color: #f2f2f2;
   border: 1px solid #f2f2f2;
 }
-footer{
-  margin-top:100px;
-  padding:1px;
-  background-color:gray;
-  font-family: arial;
-  font-size:14px;
-}
-  
-.footera{
-  padding:5px;
-  line-height: 30px;
-  bottom: 0;
-  position:relative;
-  float: left;
-}
+
 li{
   display:inline;
 }
@@ -53,10 +43,46 @@ input{
   box-shadow:none;
   height: 25px;
 }
-.footerb{
-  padding:5px;
-  line-height: 30px;
-  position: relative;
-  float: right;
-  
+footer{
+  padding:1px;
+  background-color:424242;
+  font-family: arial;
+  font-size:14px;
+  display: grid;
+  position:fixed;
+  bottom: 0;
+  width:100%;
+  grid-template-areas: "ad bi hw . se te pr";
+  grid-template-columns: 1fr 1fr 1fr 15fr 1fr 1fr 1fr 1fr;
+  grid-template-rows:30px;
+}
+#ad{
+  grid-area:ad;
+  justify-self:left;
+  align-self:center;
+} 
+#bi{
+  grid-area:bi;
+  justify-self:left;
+  align-self:center;
+}
+#hw{
+  grid-area:hw;
+  justify-self:left;
+  align-self:center;
+}
+#se{
+  grid-area:se;
+  justify-self:right;
+  align-self:center;
+}
+#te{
+  grid-area:te;
+  justify-self:right;
+  align-self:center;
+}
+#pr{
+  grid-area:pr;
+  justify-self:right;
+  align-self:center;
 }
